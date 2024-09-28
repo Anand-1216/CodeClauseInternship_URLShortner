@@ -1,0 +1,82 @@
+/* Add your CSS styles here */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+body {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+section {
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+section h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+.centerDiv {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.details label {
+    font-size: 1.2rem;
+}
+.details input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.details input[type=text] {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+.details input:focus {
+    outline: none;
+    border: 2px solid #4e54c8;
+}
+button {
+    background: #ff6b81;
+    width: 200px;
+    padding: 12px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+button:hover {
+    background: #e63946;
+    transform: scale(1.05);
+}
+.imgdiv {
+    margin-top: 20px;
+}
+#short-url, #full-url {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #f0f0f0;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    word-break: break-all;
+}

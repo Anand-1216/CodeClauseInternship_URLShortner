@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Shortener</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <section>
+        <h1>Link Shortener</h1>
+        <div class="centerDiv">
+            <div class="details">
+                <label for="long-url">Enter Long URL:</label>
+                <input type="text" id="long-url" placeholder="Enter long URL" required>
+                <br><br>
+                <label for="custom-name">Custom Name (Optional):</label>
+                <input type="text" id="custom-name" placeholder="Custom name">
+                <br><br>
+                <button id="shorten-btn">Shorten URL</button>
+                <div class="imgdiv">
+                    <p id="short-url"></p>
+                    <p id="full-url"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
